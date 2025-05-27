@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Serviteca El Bueno</title>
+  <link rel="stylesheet" href="styles.css" />
+  <script defer src="script.js"></script>
+</head>
+<body>
+  <header>
+    <img src="https://i.imgur.com/JWr8ZtQ.png" alt="Logo Serviteca El Bueno" class="logo" />
+    <h1>Serviteca El Bueno S.A.S.</h1>
+    <nav>
+      <button id="user-btn">👤 Usuario</button>
+      <button id="cart-btn">🛒 Carrito</button>
+    </nav>
+  </header>
+
+  <section class="hero">
+    <h2>¡Siente la diferencia en cada kilómetro!</h2>
+    <p>Tu seguridad en la carretera comienza con las llantas adecuadas.</p>
+    <a href="#tire-gallery" class="cta-button">Explora nuestras llantas</a>
+  </section>
+
+  <section class="search-bar">
+    <input type="text" id="vehicleType" placeholder="Tipo de vehículo...">
+    <input type="text" id="brand" placeholder="Marca de llanta...">
+    <input type="text" id="reference" placeholder="Referencia...">
+    <button onclick="searchTires()">Buscar</button>
+  </section>
+
+  <main id="tire-gallery">
+    <div class="tire-card">
+      <img src="https://images.unsplash.com/photo-1616594039964-e71750d98a76" alt="Llanta Michelin">
+      <h3>Michelin Energy XM2+</h3>
+      <p>Referencia: 195/65 R15</p>
+      <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+    <div class="tire-card">
+      <img src="https://images.unsplash.com/photo-1605296867304-46d5465a13f1" alt="Llanta Pirelli">
+      <h3>Pirelli Cinturato P1</h3>
+      <p>Referencia: 185/60 R14</p>
+      <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+    <div class="tire-card">
+      <img src="https://images.unsplash.com/photo-1600462964810-bb6a9f8fbd5f" alt="Llanta Bridgestone">
+      <h3>Bridgestone Ecopia EP150</h3>
+      <p>Referencia: 175/65 R14</p>
+      <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+    <div class="tire-card">
+      <img src="https://images.unsplash.com/photo-1571084762343-c50999f0f1e0" alt="Llanta Camión 1">
+      <h3>Goodyear Regional RHS II</h3>
+      <p>Referencia: 11R22.5</p>
+      <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+    <div class="tire-card">
+      <img src="https://images.unsplash.com/photo-1571084762262-248331db9e80" alt="Llanta Camión 2">
+      <h3>Michelin X Works XDY</h3>
+      <p>Referencia: 315/80 R22.5</p>
+      <button class="add-to-cart">Agregar al carrito</button>
+    </div>
+  </main>
+
+  <section class="promo-banner">
+    <h2>¡Ofertas exclusivas en llantas de las mejores marcas!</h2>
+    <p>Desempeño y durabilidad en cada vuelta. ¡Equipa tu vehículo con lo mejor!</p>
+  </section>
+
+  <footer>
+    <section id="contact">
+      <h2>Contáctanos</h2>
+      <p><strong>Dirección:</strong> Calle 70W #20-65, Km 3 Vía Bucaramanga-Girón, Bucaramanga, Santander</p>
+      <p><strong>Teléfono:</strong> <a href="tel:+573154464424">+57 315 446 4424</a></p>
+      <p><strong>Correo:</strong> info@servitecaelbueno.com</p>
+      <p><strong>NIT:</strong> 901462309</p>
+    </section>
+  </footer>
+
+  <a href="https://wa.me/573154464424" class="whatsapp-btn" target="_blank">💬 WhatsApp</a>
+</body>
+</html>
